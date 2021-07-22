@@ -1,0 +1,261 @@
+#N canvas 0 23 1280 715 12;
+#X obj 418 105 inlet;
+#X obj 627 87 cnv 15 435 500 empty empty empty 20 12 0 14 -228856 -66577
+0;
+#X obj 974 93 tgl 70 0 empty empty PLAY 5 34 0 25 -232576 -159808 -159808
+0 1;
+#X obj 627 92 cnv 15 10 10 empty empty JARDIM_DAS_CARTAS 20 12 0 25
+-233017 -4160 0;
+#X obj 627 107 cnv 15 10 10 empty empty +++++++++++++++++ 20 12 0 25
+-228856 -4160 0;
+#X obj 629 126 cnv 15 10 10 empty empty (c)2021_carta@todocanto 20
+12 0 12 -228856 -4160 0;
+#X obj 627 142 cnv 15 10 10 empty empty Jônatas_Manzolli 20 12 0 12
+-228856 -4160 0;
+#X obj 627 308 cnv 15 435 40 empty empty DANCE 5 8 0 14 -203904 -4160
+0;
+#X obj 646 328 tgl 25 0 s-danca11 r-danca11 1 5 14 0 16 -59583 -262144
+-262144 0 1;
+#X obj 679 329 tgl 25 0 s-danca12 r-danca12 2 5 14 0 16 -59583 -262144
+-262144 0 1;
+#X obj 711 329 tgl 25 0 s-danca13 r-danca13 3 5 14 0 16 -59583 -262144
+-262144 0 1;
+#X obj 751 330 tgl 25 0 s-danca21 r-danca21 1 5 14 0 16 -260097 -262144
+-262144 0 1;
+#X obj 784 331 tgl 25 0 s-danca22 r-danca22 2 5 14 0 16 -260097 -262144
+-262144 0 1;
+#X obj 816 331 tgl 25 0 s-danca23 r-danca23 3 5 14 0 16 -260097 -262144
+-262144 0 1;
+#X obj 854 329 tgl 25 0 s-danca31 r-danca31 1 5 14 0 16 -13381 -262144
+-262144 0 1;
+#X obj 887 330 tgl 25 0 s-danca32 r-danca32 2 5 14 0 16 -13381 -262144
+-262144 0 1;
+#X obj 919 330 tgl 25 0 s-danca33 r-danca33 3 5 14 0 16 -13381 -262144
+-262144 0 1;
+#X obj 960 329 tgl 25 0 s-danca41 r-danca41 1 5 14 0 16 -258113 -262144
+-262144 1 1;
+#X obj 993 330 tgl 25 0 s-danca42 r-danca42 2 5 14 0 16 -258113 -262144
+-262144 0 1;
+#X obj 1025 330 tgl 25 0 s-danca43 r-danca43 3 5 14 0 16 -258113 -262144
+-262144 0 1;
+#X obj 628 367 cnv 15 435 40 empty empty READING 5 8 0 14 -232576 -159808
+0;
+#X obj 645 389 tgl 25 0 s-read11 r-read11 1 5 14 0 16 -59583 -262144
+-262144 0 1;
+#X obj 678 390 tgl 25 0 s-read12 r-read12 2 5 14 0 16 -59583 -262144
+-262144 0 1;
+#X obj 710 390 tgl 25 0 s-read13 r-read13 3 5 14 0 16 -59583 -262144
+-262144 0 1;
+#X obj 750 389 tgl 25 0 s-read21 r-read21 1 5 14 0 16 -260097 -262144
+-262144 0 1;
+#X obj 783 390 tgl 25 0 s-read22 r-read22 2 5 14 0 16 -260097 -262144
+-262144 0 1;
+#X obj 815 390 tgl 25 0 s-read23 r-read23 3 5 14 0 16 -260097 -262144
+-262144 0 1;
+#X obj 852 388 tgl 25 0 s-read31 r-read31 1 5 14 0 16 -13381 -262144
+-262144 0 1;
+#X obj 885 389 tgl 25 0 s-read32 r-read32 2 5 14 0 16 -13381 -262144
+-262144 0 1;
+#X obj 917 389 tgl 25 0 s-read33 r-read33 3 5 14 0 16 -13381 -262144
+-262144 0 1;
+#X obj 961 386 tgl 25 0 s-read41 r-read41 1 5 14 0 16 -258113 -262144
+-262144 0 1;
+#X obj 994 387 tgl 25 0 s-read42 r-read42 2 5 14 0 16 -258113 -262144
+-262144 0 1;
+#X obj 1026 387 tgl 25 0 s-read43 r-read43 3 5 14 0 16 -258113 -262144
+-262144 0 1;
+#X obj 628 427 cnv 15 435 40 empty empty TEXT 5 8 0 14 -203904 -4160
+0;
+#X obj 645 449 tgl 25 0 s-texto11 r-texto11 1 5 14 0 16 -59583 -262144
+-262144 0 1;
+#X obj 678 450 tgl 25 0 s-texto12 r-texto12 2 5 14 0 16 -59583 -262144
+-262144 0 1;
+#X obj 710 450 tgl 25 0 s-texto13 r-texto13 3 5 14 0 16 -59583 -262144
+-262144 0 1;
+#X obj 750 449 tgl 25 0 s-texto21 r-texto21 1 5 14 0 16 -260097 -262144
+-262144 0 1;
+#X obj 783 450 tgl 25 0 s-texto22 r-texto22 2 5 14 0 16 -260097 -262144
+-262144 0 1;
+#X obj 815 450 tgl 25 0 s-texto23 r-texto23 3 5 14 0 16 -260097 -262144
+-262144 0 1;
+#X obj 852 448 tgl 25 0 s-texto31 r-texto31 1 5 14 0 16 -13381 -262144
+-262144 0 1;
+#X obj 885 449 tgl 25 0 s-texto32 r-texto32 2 5 14 0 16 -13381 -262144
+-262144 0 1;
+#X obj 917 449 tgl 25 0 s-texto33 r-texto33 3 5 14 0 16 -13381 -262144
+-262144 0 1;
+#X obj 961 446 tgl 25 0 s-texto41 r-texto41 1 5 14 0 16 -258113 -262144
+-262144 0 1;
+#X obj 994 447 tgl 25 0 s-texto42 r-texto42 2 5 14 0 16 -258113 -262144
+-262144 0 1;
+#X obj 1026 447 tgl 25 0 s-texto43 r-texto43 3 5 14 0 16 -258113 -262144
+-262144 0 1;
+#X obj 627 176 cnv 15 435 65 empty empty POEMA 10 8 0 14 -203904 -4160
+0;
+#X obj 651 194 tgl 60 0 s-poema1 r-poema1 1 10 30 0 60 -88512 -262144
+-262144 0 1;
+#X obj 753 193 tgl 60 0 s-poema2 r-poema2 2 10 30 0 60 -260097 -262144
+-262144 0 1;
+#X obj 866 194 tgl 60 0 s-poema3 r-poema3 3 10 30 0 60 -13381 -262144
+-262144 0 1;
+#X obj 972 194 tgl 60 0 s-poema4 r-poema4 4 10 30 0 60 -258113 -262144
+-262144 0 1;
+#N canvas 118 186 450 300 controla-poemas-soundscape 0;
+#X obj 38 -3 inlet;
+#X obj 37 42 sel 1 2 3 4;
+#X msg 38 81 \; r-poema1 1 \; r-poema2 0 \; r-poema3 0 \; r-poema4
+0 \;;
+#X msg 143 82 \; r-poema1 0 \; r-poema2 1 \; r-poema3 0 \; r-poema4
+0 \;;
+#X msg 251 84 \; r-poema1 0 \; r-poema2 0 \; r-poema3 1 \; r-poema4
+0 \;;
+#X msg 356 85 \; r-poema1 0 \; r-poema2 0 \; r-poema3 0 \; r-poema4
+1 \;;
+#X obj 37 20 t f b;
+#X msg 71 236 \; r-soundscape \$1 \;;
+#X obj 69 179 random 24;
+#X obj 70 214 / 24;
+#X connect 0 0 6 0;
+#X connect 1 0 2 0;
+#X connect 1 1 3 0;
+#X connect 1 2 4 0;
+#X connect 1 3 5 0;
+#X connect 6 0 1 0;
+#X connect 6 1 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 7 0;
+#X restore 1070 187 pd controla-poemas-soundscape;
+#X obj 631 262 hsl 430 30 0 1 0 0 s-soundscape r-soundscape soundscape
+10 15 0 25 -232576 -159808 -159808 0 1;
+#X obj 636 678 udpsend;
+#X msg 722 591 disconnect;
+#X symbolatom 633 537 15 0 0 2 video_IP - -;
+#X msg 636 643 connect \$1 \$2;
+#X obj 721 561 bng 20 250 50 0 empty empty disconnect -10 10 2 13 -258113
+-262144 -1;
+#X obj 634 618 pack s f;
+#X obj 687 593 f;
+#X obj 633 561 nbx 6 20 1000 100000 0 0 empty r-porta-ip empty 0 -8
+0 12 -262144 -1 -1 1000 256;
+#X obj 633 591 t a b;
+#X msg 721 616 symbol;
+#X obj 1069 164 markov-poemas poema 10000;
+#X msg 812 660 connect 192.168.01.26 9999;
+#X obj 811 635 loadbang;
+#N canvas 118 73 451 361 reset-all 0;
+#X obj 36 11 r off-all;
+#X msg 33 74 \; r-danca11 0 \; r-danca12 0 \; r-danca13 0 \;;
+#X msg 32 139 \; r-danca21 0 \; r-danca22 0 \; r-danca23 0 \;;
+#X msg 30 207 \; r-danca31 0 \; r-danca32 0 \; r-danca33 0 \;;
+#X msg 30 271 \; r-danca41 0 \; r-danca42 0 \; r-danca43 0 \;;
+#X msg 137 77 \; r-read11 0 \; r-read12 0 \; r-read13 0 \;;
+#X msg 135 143 \; r-read21 0 \; r-read22 0 \; r-read23 0 \;;
+#X msg 136 209 \; r-read31 0 \; r-read32 0 \; r-read33 0 \;;
+#X msg 135 274 \; r-read41 0 \; r-read42 0 \; r-read43 0 \;;
+#X msg 236 77 \; r-texto11 0 \; r-texto12 0 \; r-texto13 0 \;;
+#X msg 235 144 \; r-texto21 0 \; r-texto22 0 \; r-texto23 0 \;;
+#X msg 234 211 \; r-texto31 0 \; r-texto32 0 \; r-texto33 0 \;;
+#X msg 234 274 \; r-texto41 0 \; r-texto42 0 \; r-texto43 0 \;;
+#X obj 35 43 sel 0;
+#X obj 151 16 loadbang;
+#X msg 152 38 0;
+#X msg 347 81 \; r-poema1 0 \; r-poema2 0 \; r-poema3 0 \; r-poema4
+0 \;;
+#X obj 152 -7 inlet;
+#X connect 0 0 13 0;
+#X connect 13 0 1 0;
+#X connect 13 0 2 0;
+#X connect 13 0 3 0;
+#X connect 13 0 4 0;
+#X connect 13 0 5 0;
+#X connect 13 0 6 0;
+#X connect 13 0 7 0;
+#X connect 13 0 8 0;
+#X connect 13 0 9 0;
+#X connect 13 0 10 0;
+#X connect 13 0 11 0;
+#X connect 13 0 12 0;
+#X connect 13 0 16 0;
+#X connect 14 0 15 0;
+#X connect 15 0 13 0;
+#X connect 17 0 15 0;
+#X restore 1011 592 pd reset-all;
+#X obj 1011 538 bng 40 250 50 0 empty empty RESET 5 20 0 12 -258113
+-262144 -262144;
+#N canvas 96 127 517 455 controle-camadas 0;
+#X obj 96 385 outlet;
+#N canvas 43 63 477 298 interface-elementos 0;
+#X obj 41 15 r s-poema1;
+#X obj 141 18 r s-poema2;
+#X obj 242 20 r s-poema3;
+#X obj 342 22 r s-poema4;
+#X obj 43 95 outlet;
+#X obj 141 96 outlet;
+#X obj 243 97 outlet;
+#X obj 341 98 outlet;
+#X connect 0 0 4 0;
+#X connect 1 0 5 0;
+#X connect 2 0 6 0;
+#X connect 3 0 7 0;
+#X restore 96 17 pd interface-elementos;
+#X obj 96 119 controla-dance;
+#X obj 96 343 controla-texto;
+#X obj 99 221 controla-read;
+#X obj 95 39 markov-elementos d1 0 5000;
+#X obj 95 60 markov-elementos d2 3 5000;
+#X obj 96 81 markov-elementos d3 6 5000;
+#X obj 97 100 markov-elementos d4 9 5000;
+#X obj 96 143 markov-elementos r1 0 3000;
+#X obj 96 165 markov-elementos r2 3 3000;
+#X obj 97 185 markov-elementos r3 6 3000;
+#X obj 99 202 markov-elementos r4 9 3000;
+#X obj 97 251 markov-elementos t1 0 1000;
+#X obj 98 273 markov-elementos t2 3 1000;
+#X obj 98 296 markov-elementos t3 6 1000;
+#X obj 97 319 markov-elementos t4 9 1000;
+#X connect 1 0 5 0;
+#X connect 1 0 9 0;
+#X connect 1 0 13 0;
+#X connect 1 1 6 0;
+#X connect 1 1 10 0;
+#X connect 1 1 14 0;
+#X connect 1 2 7 0;
+#X connect 1 2 11 0;
+#X connect 1 2 15 0;
+#X connect 1 3 8 0;
+#X connect 1 3 12 0;
+#X connect 1 3 16 0;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X connect 5 0 2 0;
+#X connect 6 0 2 0;
+#X connect 7 0 2 0;
+#X connect 8 0 2 0;
+#X connect 9 0 4 0;
+#X connect 10 0 4 0;
+#X connect 11 0 4 0;
+#X connect 12 0 4 0;
+#X connect 13 0 3 0;
+#X connect 14 0 3 0;
+#X connect 15 0 3 0;
+#X connect 16 0 3 0;
+#X restore 457 659 pd controle-camadas;
+#X connect 2 0 63 0;
+#X connect 54 0 53 0;
+#X connect 55 0 61 0;
+#X connect 56 0 53 0;
+#X connect 57 0 54 0;
+#X connect 57 0 62 0;
+#X connect 58 0 56 0;
+#X connect 59 0 58 1;
+#X connect 60 0 59 1;
+#X connect 61 0 58 0;
+#X connect 61 1 59 0;
+#X connect 62 0 55 0;
+#X connect 63 0 51 0;
+#X connect 64 0 53 0;
+#X connect 65 0 64 0;
+#X connect 67 0 66 0;
+#X connect 68 0 53 0;
+#X coords 0 -1 1 1 440 500 1 625 85;
