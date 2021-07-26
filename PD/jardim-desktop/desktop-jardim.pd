@@ -29,7 +29,7 @@
 #X obj 854 313 tgl 25 0 s-danca31 r-danca31 1 5 14 0 16 -51457 -262144
 -262144 0 1;
 #X obj 887 314 tgl 25 0 s-danca32 r-danca32 2 5 14 0 16 -51457 -262144
--262144 1 1;
+-262144 0 1;
 #X obj 919 314 tgl 25 0 s-danca33 r-danca33 3 5 14 0 16 -51457 -262144
 -262144 0 1;
 #X obj 960 313 tgl 25 0 s-danca41 r-danca41 1 5 14 0 16 -258113 -262144
@@ -37,7 +37,7 @@
 #X obj 993 314 tgl 25 0 s-danca42 r-danca42 2 5 14 0 16 -258113 -262144
 -262144 0 1;
 #X obj 1025 314 tgl 25 0 s-danca43 r-danca43 3 5 14 0 16 -258113 -262144
--262144 1 1;
+-262144 0 1;
 #X obj 628 360 cnv 15 435 45 empty empty READING 5 10 0 18 -232576
 -159808 0;
 #X obj 645 389 tgl 25 0 s-read11 r-read11 1 5 14 0 16 -59583 -262144
@@ -55,11 +55,11 @@
 #X obj 852 388 tgl 25 0 s-read31 r-read31 1 5 14 0 16 -51457 -262144
 -262144 0 1;
 #X obj 885 389 tgl 25 0 s-read32 r-read32 2 5 14 0 16 -51457 -262144
--262144 1 1;
+-262144 0 1;
 #X obj 917 389 tgl 25 0 s-read33 r-read33 3 5 14 0 16 -51457 -262144
 -262144 0 1;
 #X obj 961 386 tgl 25 0 s-read41 r-read41 1 5 14 0 16 -258113 -262144
--262144 1 1;
+-262144 0 1;
 #X obj 994 387 tgl 25 0 s-read42 r-read42 2 5 14 0 16 -258113 -262144
 -262144 0 1;
 #X obj 1026 387 tgl 25 0 s-read43 r-read43 3 5 14 0 16 -258113 -262144
@@ -73,15 +73,15 @@
 #X obj 710 467 tgl 25 0 s-texto13 r-texto13 3 5 14 0 16 -59583 -262144
 -262144 0 1;
 #X obj 750 466 tgl 25 0 s-texto21 r-texto21 1 5 14 0 16 -260097 -262144
--262144 0 1;
-#X obj 783 467 tgl 25 0 s-texto22 r-texto22 2 5 14 0 16 -260097 -262144
 -262144 1 1;
+#X obj 783 467 tgl 25 0 s-texto22 r-texto22 2 5 14 0 16 -260097 -262144
+-262144 0 1;
 #X obj 815 467 tgl 25 0 s-texto23 r-texto23 3 5 14 0 16 -260097 -262144
 -262144 0 1;
 #X obj 852 465 tgl 25 0 s-texto31 r-texto31 1 5 14 0 16 -51457 -262144
 -262144 0 1;
 #X obj 885 466 tgl 25 0 s-texto32 r-texto32 2 5 14 0 16 -51457 -262144
--262144 1 1;
+-262144 0 1;
 #X obj 917 466 tgl 25 0 s-texto33 r-texto33 3 5 14 0 16 -51457 -262144
 -262144 0 1;
 #X obj 961 463 tgl 25 0 s-texto41 r-texto41 1 5 14 0 16 -258113 -262144
@@ -89,7 +89,7 @@
 #X obj 994 464 tgl 25 0 s-texto42 r-texto42 2 5 14 0 16 -258113 -262144
 -262144 0 1;
 #X obj 1026 464 tgl 25 0 s-texto43 r-texto43 3 5 14 0 16 -258113 -262144
--262144 1 1;
+-262144 0 1;
 #X obj 627 189 cnv 15 435 65 empty empty POEMA 5 10 0 16 -203904 -4160
 0;
 #X obj 651 216 tgl 60 0 s-poema1 r-poema1 1 10 30 0 60 -88512 -262144
@@ -146,10 +146,9 @@
 #X obj 634 618 pack s f;
 #X obj 687 593 f;
 #X obj 633 561 nbx 6 20 1000 100000 0 0 empty r-porta-ip empty 0 -8
-0 12 -262144 -1 -1 1000 256;
+0 12 -262144 -1 -1 10000 256;
 #X obj 633 591 t a b;
 #X msg 721 616 symbol;
-#X msg 812 660 connect 192.168.01.26 9999;
 #X obj 811 635 loadbang;
 #N canvas 118 73 451 361 reset-all 0;
 #X obj 36 11 r off-all;
@@ -399,11 +398,11 @@
 #X connect 12 4 13 0;
 #X restore 457 625 pd receive-network;
 #X obj 755 293 hsl 190 15 0 1 0 0 s-slider-dance r-slider-dance dance-duration
-12 7 0 10 -232576 -4160 -4160 3937 1;
+12 7 0 10 -232576 -4160 -4160 11812 1;
 #X obj 753 445 hsl 190 15 0 1 0 0 s-slider-text r-slider-text text-duration
-10 7 0 10 -232576 -4160 -4160 6300 1;
+10 7 0 10 -232576 -4160 -4160 11812 1;
 #X obj 753 369 hsl 190 15 0 1 0 0 s-slider-read r-slider-read read-duration
-10 7 0 10 -203904 -4160 -4160 4725 1;
+10 7 0 10 -203904 -4160 -4160 10238 1;
 #N canvas 0 23 450 300 init-program 0;
 #X obj 88 14 loadbang;
 #X msg 88 38 \; r-slider-dance 0.1 \; r-slider-read 0.1 \; r-slider-text
@@ -715,8 +714,9 @@
 #X connect 16 0 0 0;
 #X restore 477 254 pd mixing-sounds;
 #X obj 1102 580 markov-poemas poema 20000;
-#X connect 0 0 67 0;
-#X connect 2 0 77 0;
+#X msg 812 660 connect 192.168.0.104 9999;
+#X connect 0 0 66 0;
+#X connect 2 0 76 0;
 #X connect 53 0 52 0;
 #X connect 54 0 60 0;
 #X connect 55 0 52 0;
@@ -728,9 +728,9 @@
 #X connect 60 0 57 0;
 #X connect 60 1 58 0;
 #X connect 61 0 54 0;
-#X connect 62 0 52 0;
-#X connect 63 0 62 0;
-#X connect 65 0 64 0;
-#X connect 66 0 52 0;
-#X connect 77 0 51 0;
+#X connect 62 0 77 0;
+#X connect 64 0 63 0;
+#X connect 65 0 52 0;
+#X connect 76 0 51 0;
+#X connect 77 0 52 0;
 #X coords 0 -1 1 1 440 500 1 625 85;
