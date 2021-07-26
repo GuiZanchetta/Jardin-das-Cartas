@@ -1,0 +1,87 @@
+#N canvas 61 57 899 590 12;
+#X obj -95 14 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj -93 65 f 0;
+#X obj -94 121 mod 5;
+#X obj -93 86 + 1;
+#X obj -94 143 sel 0 1 2 3 4;
+#X obj -97 236 + 1;
+#X obj 486 277 + 1;
+#X obj -41 649 outlet;
+#X obj -94 43 metro 5000;
+#X obj 62 8 loadbang;
+#X obj -95 -14 inlet;
+#X obj 61 39 float \$1;
+#X obj -95 169 f 0;
+#X obj -95 188 + 1;
+#X obj -95 213 mod 3;
+#X obj -14 177 f 0;
+#X obj -14 196 + 1;
+#X obj -14 221 mod 3;
+#X obj -61 328 f 0;
+#X obj -61 347 + 1;
+#X obj -61 372 mod 3;
+#X obj -20 484 f 0;
+#X obj -20 503 + 1;
+#X obj -19 529 mod 3;
+#X obj -25 555 + 1;
+#X obj -58 404 + 1;
+#X obj -16 247 + 1;
+#X obj -97 265 makefilename ./3-cordilheiras/read32/%d-read321.wav
+;
+#X obj -16 309 makefilename ./3-cordilheiras/read32/%d-read322.wav
+;
+#X obj -55 432 makefilename ./3-cordilheiras/read32/%d-read323.wav
+;
+#X obj 487 305 makefilename ./3-cordilheiras/read32/%d-read325.wav
+;
+#X obj -29 582 makefilename ./3-cordilheiras/read32/%d-read324.wav
+;
+#X obj 556 247 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 532 214 clear;
+#X obj 486 241 urn 3;
+#X connect 0 0 8 0;
+#X connect 1 0 3 0;
+#X connect 2 0 1 1;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;
+#X connect 4 0 12 0;
+#X connect 4 1 15 0;
+#X connect 4 2 18 0;
+#X connect 4 3 21 0;
+#X connect 4 4 34 0;
+#X connect 5 0 27 0;
+#X connect 6 0 30 0;
+#X connect 8 0 1 0;
+#X connect 9 0 11 0;
+#X connect 10 0 0 0;
+#X connect 11 0 8 1;
+#X connect 12 0 13 0;
+#X connect 13 0 14 0;
+#X connect 14 0 12 1;
+#X connect 14 0 5 0;
+#X connect 15 0 16 0;
+#X connect 16 0 17 0;
+#X connect 17 0 15 1;
+#X connect 17 0 26 0;
+#X connect 18 0 19 0;
+#X connect 19 0 20 0;
+#X connect 20 0 18 1;
+#X connect 20 0 25 0;
+#X connect 21 0 22 0;
+#X connect 22 0 23 0;
+#X connect 23 0 21 1;
+#X connect 23 0 24 0;
+#X connect 24 0 31 0;
+#X connect 25 0 29 0;
+#X connect 26 0 28 0;
+#X connect 27 0 7 0;
+#X connect 28 0 7 0;
+#X connect 29 0 7 0;
+#X connect 30 0 7 0;
+#X connect 31 0 7 0;
+#X connect 32 0 33 0;
+#X connect 33 0 34 0;
+#X connect 34 0 6 0;
+#X connect 34 1 32 0;

@@ -1,0 +1,13 @@
+#N canvas 307 57 518 300 12;
+#X obj 84 149 readsf~;
+#X obj 85 188 outlet~;
+#X msg 84 121 open \$1;
+#X obj 26 54 t f f;
+#X obj 26 22 inlet;
+#X obj 85 72 find-files-read12 \$1;
+#X connect 0 0 1 0;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;
+#X connect 3 1 5 0;
+#X connect 4 0 3 0;
+#X connect 5 0 2 0;
